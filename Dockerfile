@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # This command will run when the container starts
-CMD ["python3", "-m", "scraper.py"]
+CMD ["python3", "-m", "scraper"]
